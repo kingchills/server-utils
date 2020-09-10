@@ -12,3 +12,8 @@ will need to be set up in a cron of some sort.
 1. disk-space.sh - A command that takes a threshold (default 85) and checks current
 disk usage.  It will then attempt to use the mail command to email an alert to
 a comma separated list of users from the .env.
+
+
+####TODOs
+1. Set up single access point script that will call all other enabled scripts.
+2. Set up install script to create .env files, and add single access script to cron
