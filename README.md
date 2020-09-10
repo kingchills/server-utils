@@ -2,9 +2,9 @@ Server Utils
 ===
 
 A small repo of thought to be handy server utils.  These utils will take advantage 
-of the .env file for non-committed values.  A git post-checkout hook will copy the
-.env-dist to .env for you. Currently any utils that are to be used, will need to be
-set up in a cron of some sort.
+of the .env file for non-committed values.  Post clone you must copy .env-dist to .env
+to take advantage of the non committed values. Currently, any utils that are to be used, 
+will need to be set up in a cron of some sort.
 
 
 
