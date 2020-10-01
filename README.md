@@ -9,9 +9,12 @@ will need to be set up in a cron of some sort.
 
 
 ####Utils
-1. disk-space.sh - A command that takes a threshold (default 85) and checks current
+1. `disk-space.sh` - A command that takes a threshold (default 85) and checks current
 disk usage.  It will then attempt to use the mail command to email an alert to
 a comma separated list of users from the .env.
+1. `dir-clean.sh` - A command that takes two inputs, the directory to operate on, and the
+number of files to keep.  This command uses `ls -t` to sort the files by time, and then
+the threshold minus total number of files to delete.
 
 
 ####TODOs
